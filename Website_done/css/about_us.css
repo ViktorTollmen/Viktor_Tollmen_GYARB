@@ -1,0 +1,154 @@
+body{
+    background-color: rgb(255, 143, 12, 1);
+}
+
+#banner{
+    
+    background-color: rgba(49, 49, 49, 1);
+    height: 10vw;
+    
+    position: fixed;
+    top: -1vw;
+    left: -1vw;
+    width: 101vw;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-content: center;
+}
+
+.title{
+    color: white;
+    position: relative;
+    font-size: 5vw;
+    margin-left: 27vw;
+    margin-right: 27vw;
+    
+}
+
+.logo{
+    height: 75%;
+    margin-top: 2.8vw;
+}
+
+#extra_space{
+    width: 5vw;
+}
+
+.logo:hover{
+    height: 77%;
+    transition: 0.25s;
+}
+
+#about_box{
+    width: 9.1vw;
+    height: 5.75vw;
+    border-radius: 0.5vw;
+    border: 0.5vw solid #313131;
+    background: #FFF;
+    box-shadow: 0.25vw 0.35vw 0.5vw 0vw rgba(0, 0, 0, 0.60);
+    margin-top: 8vw;
+    margin-left: 87vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+}
+
+#about_text{
+    color: #313131;
+    text-align: center;
+    font-size: 1.85vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#about_box:hover{
+    transition: 0.25s;
+    height: 5.9vw;
+    margin-top: 7.5vw;
+    margin-left: 87vw;
+}
+
+#home_a_tag{
+    height: 10vw;
+}
+
+a{
+    text-decoration: none;
+}
+
+.text_box{
+    width: 45vw;
+    border-radius: 1.75vw;
+    border: 0.75vw solid #000;
+    background: #FFF;
+    box-shadow: 0.4vw 0.5vw 0.5vw 0px rgba(0, 0, 0, 0.60);
+    padding: 1vw;
+    margin-top: 14vw;
+    margin-right: 20vw;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    width: 99vw;
+}
+
+.title_text{
+    color: #000;
+    font-size: 2vw;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    text-decoration: underline;
+
+}
+
+#text_text{
+    color: #000;
+    font-size: 1.5vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.box_row{
+    display: flex;
+    flex-direction: row;
+}
+
+.form_box{
+    width: 15vw;
+    height: 12vw;
+    border-radius: 1.75vw;
+    border: 0.75vw solid #000;
+    background: #FFF;
+    box-shadow: 0.4vw 0.5vw 0.5vw 0px rgba(0, 0, 0, 0.60);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20vw;
+    margin-left: 5vw;
+
+}
+
+.form_text{
+    color: #000;
+    text-align: center;
+    font-size: 2.5vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.form_box:hover{
+    transition: 0.25s;
+    padding: 0.15vw 0.1875vw;
+    margin-top: 19.85vw;
+    margin-left: 4.8125vw;
+}

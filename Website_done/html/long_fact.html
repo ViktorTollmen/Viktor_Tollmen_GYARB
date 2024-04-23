@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facts For You</title>
+    <link rel="stylesheet" href="../css/long_fact.css">
+</head>
+<body>
+    <script src="../javascript/web_1.js"></script>
+
+    <a href="about_us.html">
+        <div id="about_box">
+            <h1 id="about_text">About Us</h1>
+        </div>
+    </a>
+    <div id="banner">
+        <a href="index.html" id="home_a_tag"><img src="..\images\logo.png" alt="no logo for you" class="logo"></a>
+        <h1 class="title">Facts For You</h1>
+        <div id="extra_space"></div>
+    </div>
+
+    <div class="box_row">
+        <div class="fact_column">
+            <div class="fact_box" onclick="new_fact()">
+                <h1 class="fact_text">New Fact</h1>
+            </div>
+            <div class="fact_box" onclick="previous_fact()">
+                <h1 class="fact_text">Previous Fact</h1>
+            </div>
+        </div> 
+        <div class="center">
+            <div id="text_box">
+                <h1 id="text_header">Did you know?</h1>
+                <div id="line"></div>
+                <p id="text_text">Here you'll find your facts</p>
+            </div>
+            <div class="more_box">
+                <h1 id="more_text">More information</h1>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
